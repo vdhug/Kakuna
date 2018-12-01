@@ -7,7 +7,8 @@ body {
 p {
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 14px;
-	line-height: 20px;
+	color: #302d3d;
+	line-height: 25px;
 }
 
 img {
@@ -44,6 +45,16 @@ img {
 
 .icon-menu:before {
   content: "\e9bd";
+}
+
+.icon-checkbox:before {
+  content: "\ea53";
+}
+.icon-linkedin:before {
+  content: "\eaca";
+}
+.icon-github:before {
+  content: "\eab0";
 }
 
 
@@ -97,12 +108,158 @@ img {
 
 /* About */
 .about {
-	margin-top: 40px;
-}
-.about .container .grid-7 {
-	background-color: red;
+	margin: 40px 0;
 }
 
 .kakuna_icon img {
 	float: right;
 } 
+
+
+.about div .subtitulo:after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 2px;
+	background: #f78e2c; /* Dourado */
+	text-align: left;
+	margin: 10px 0;
+}
+
+.subtitulo {
+	font-size: 1.7em;
+	font-weight: bold;
+	color: #302d3d;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.info li {
+	font-style: italic;
+	font-size: 1.2em;
+	line-height: 2.25em;
+	color: #302d3d;
+}
+
+.info li .icon-checkbox {
+	color: #f78e2c;
+	margin-right: 10px;
+}
+
+
+/* Quote */
+.quote {
+	width: 100%;
+	padding-top: 35px;
+	background: #302d3d;
+	height: 275px;
+}
+
+.quote-phrase {
+	font-size: 2.5em;
+	line-height: 45px;
+	margin: 0 auto;
+	max-width: 980px;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 20px;
+}
+
+.quote-author {
+	font-size: 1em;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: #f78e2c;
+}
+
+.quote-author:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 2px;
+	background: #f78e2c; /* Dourado */
+	text-align: center;
+	margin: 10px auto;
+}
+
+/* Portfolio*/
+.portfolio {
+	padding-bottom: 40px;
+}
+
+.portfolio ul {
+	padding-top: 40px;
+}
+
+.portfolio ul li {
+	display: inline;
+}
+
+.portfolio_icon img {
+	margin: 0 auto;
+}
+
+.portfolio_icon .subtitulo {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.portfolio_icon .subtitulo:after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 2px;
+	background: #f78e2c; /* Dourado */
+	text-align: center;
+	margin: 10px auto;
+}
+
+.portfolio_icon p {
+	text-align: center;
+}
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.btn {
+	border: 4px solid #302d3d;
+    padding: 10px 30px;
+    color: #302d3d;
+    font-size: 1em;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.btn:hover {
+	border-color: #000;
+	color: #000;
+}
+
+/* */
+.copy {
+	width: 100%;
+	background: #302d3d;
+	padding: 20px 0;
+}
+
+.copy-info p {
+	color: #FFF;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.copy-info .copy-contact a span {
+	float: right;
+	font-size: 1.25em;
+	color: #FFF;
+	margin-right: 20px;
+}
