@@ -46,6 +46,14 @@
 	margin-top: 20px;
 }
 
+.copy {
+	padding: 10px 0;
+}
+
+.copy-info {
+	margin-bottom: 0px;
+}
+
 .copy-info p {
 	font-size: 1em;
 }
