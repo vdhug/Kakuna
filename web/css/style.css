@@ -6,9 +6,9 @@ body {
 
 p {
 	font-family: Georgia, "Times New Roman", serif;
-	font-size: 14px;
+	font-size: 1em;
 	color: #302d3d;
-	line-height: 25px;
+	line-height: 1.78em;
 }
 
 img {
@@ -253,13 +253,18 @@ img {
 
 .copy-info p {
 	color: #FFF;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: normal;
 }
 
-.copy-info .copy-contact a span {
+.copy-info a span {
 	float: right;
-	font-size: 1.25em;
+	font-size: 1.55em;
 	color: #FFF;
-	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+.copy-info a span:hover {
+	color: #f78e2c;
 }
